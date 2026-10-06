@@ -74,3 +74,16 @@ SuperWarp - addon
 GearSwap - addon
 
 Disabled menu animations - Settings
+
+---
+
+## Experimental SlowEnter integration
+
+The branch `work/slowenter-signet-2026-10-06` preserves one experimental change migrated from the old NPCMirror workspace:
+
+- `Milma-Hapilma, W.W.` uses `slowenter on;wait 5;slowenter off` after opening the menu instead of one immediate Enter tap.
+
+This was kept as a work branch because it was noted as a temporary Signet-NPC-style workaround, not established as canonical SirPopAlot behavior. It requires the separate SlowEnter addon: https://github.com/rerorriM-Mirrorer/SlowEnter
+
+Live-check the interaction before considering a merge to `main`.
+
