@@ -783,7 +783,7 @@ local coordinate_trade_tables = {
     ['Arpevion, T.K.:*:*:*']        = { OpenMenu = true, cmd = 'setkey enter down;wait 0.1;setkey enter up' },
     ['Aravoge, T.K.:*:*:*']         = { OpenMenu = true, cmd = 'setkey enter down;wait 0.1;setkey enter up' },
     ['Achantere, T.K.:*:*:*']       = { OpenMenu = true, cmd = 'setkey enter down;wait 0.1;setkey enter up' },
-    ['Milma-Hapilma, W.W.:*:*:*']   = { OpenMenu = true, cmd = 'setkey enter down;wait 0.1;setkey enter up' },
+    ['Milma-Hapilma, W.W.:*:*:*']   = { OpenMenu = true, cmd = 'slowenter on;wait 5;slowenter off' },
     ['Puroiko-Maiko, W.W.:*:*:*']   = { OpenMenu = true, cmd = 'setkey enter down;wait 0.1;setkey enter up' },
     ['Harara, W.W.:*:*:*']          = { OpenMenu = true, cmd = 'setkey enter down;wait 0.1;setkey enter up' },
     ['Kochahy-Muwachahy:*:*:*']     = { OpenMenu = true, cmd = 'setkey enter down;wait 0.1;setkey enter up' },
